@@ -1,0 +1,230 @@
+body{
+    background-color:#f1f1f1;
+    margin:0 auto;
+    font-family: Century Gothic, sans-serif; /*Fall back font*/
+}
+
+/* Link Colors */
+a:link, a:visited, a:active {
+    color:#b70101;
+}
+
+
+/* Main wrapper - applies to every 'page'*/
+.contentwrapper{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    width:100%;
+    height:auto;
+    min-height:100%;
+    background-color: #f1f1f1; 
+    position:absolute; top:0px; left:0px;
+    position:absolute; top:0px; left:0px;
+}
+
+#btnwrapper{
+    height:308px;
+    width:100%;
+    position:absolute;
+    top:50%; margin-top:-154px;
+    margin-bottom:-46px;f
+}
+
+
+
+/*Action Bar*/
+#actionbar{
+    height:50px;
+    padding-left:30px; padding-right:30px;
+    margin-left:-30px;
+    width:100%;
+    background-color:#353535;
+    position:fixed; top:0px; z-index:100000;
+    box-shadow: 0px 0px 4px #333;
+}
+/*Text on action bar*/
+.action_header{
+    font-family: roboto_thin;
+    font-size:22pt;
+    color:white;
+    line-height:48px;
+    margin-left:12px;
+}
+/*Three-lines*/
+.actionbtn{
+    padding-top:17px; padding-bottom:17px;
+    float:left;
+    width:14px; height:14px;
+    margin-left:-5px;
+}
+
+
+
+/*Side menu*/
+#side_menu{
+    height:100%;
+    width:280px;
+    background-color:#f1f1f1;
+    position:fixed;
+    top: 0px; left:0px;
+    z-index:10000;
+    box-shadow: 0px 0px 8px #000;
+    /*margin-left:-295px;*/
+}
+/*dark background*/
+#side_menu_darken{
+    background-color:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px; left:0px;
+    z-index:1000;
+    display:none;
+}
+/*individual item on sidebar*/
+.side_menu_item{
+    width:250px;
+    padding:15px;
+    font-family:roboto_thin;
+    font-size:13pt;
+    color:#353535;
+    border-bottom:1px solid #e8e8e8;
+}.side_menu_item:hover{
+    background-color:#f7f7f7;
+}
+/*Sidebar header*/
+.side_menu_header{
+    width:250px;
+    padding-left:15px; padding-right:15px; padding-top:5px; padding-bottom:3px;
+    font-family: roboto_bold;
+    font-size:10pt;
+    color:#353535;
+    border-bottom:3px solid #d8d8d8;
+    text-transform:uppercase;
+}
+
+
+
+
+/*The folling is just for the buttons on the home page*/
+.innerwrapper{
+    margin-top:16px;
+    margin-left:4%;
+    padding-left:3%; padding-right:3%; padding-top:10px; padding-bottom:10px;
+    width:86%;
+    height:auto;
+    max-height:92%;
+    overflow:hidden;
+    background-color:#fff;
+}
+.innerwrapper:hover{
+    background-color:#f7f7f7;
+}
+/*Icon left side of button*/
+.leftimgbox{
+    font-family: roboto;
+    height:68px; width:68px; float:left;
+    background-color:#f1f1f1;
+    border:2px solid #d3d3d3;
+    color:#353535;
+    font-size:38pt;
+    text-align:center; line-height:64px;
+    border-top-left-radius:20px; border-bottom-right-radius:20px; border-top-right-radius:5px; border-bottom-left-radius:5px;
+    margin-top:-1px;
+}
+/*Text in home page button*/
+.boxbtntext{
+    height:68px;
+    border:2px solid transparent;
+    text-align:left;
+    font-family: roboto_thin;
+    line-height:63px;
+    color:black;
+    font-size:25pt;
+}
+
+
+
+/*Card (content) boxes*/
+.card_box{
+    margin-top:8px;
+    margin-left:4%;
+    padding-left:3%; padding-right:3%; padding-top:2px; padding-bottom:2px;
+    width:86%;
+    height:auto;
+    max-height:92%;
+    overflow:hidden;
+    background-color:#fff;
+}
+.card_header{
+    font-size:20pt; font-family:roboto;
+    padding-top:10px;
+    color:#353535;
+}
+.card_content{
+    font-size:11pt; font-family:roboto_thin;
+    color: #353535;
+    padding-bottom:10px;
+}
+.clickable:hover {
+    background-color: #f7f7f7;   
+}
+
+
+
+
+/* Fonts - ROBOTO (official Android font)*/
+@font-face {
+    font-family: "roboto_bold";
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto";
+    src: url("../font/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: 'roboto_thin';
+  src: url('../font/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'roboto_slab_bold';
+    src: url('../font/RobotoSlab-Bold.ttf');
+}
+
+
+
+
+/* Fix for JQuery Mobile Choppy scrolling - leave this or your app will suck*/
+.ui-bar-a 
+.ui-shadow,
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a,
+.ui-body-b,
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b,
+.ui-bar-c,
+.ui-body-c,
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c,
+.ui-bar-c,
+.ui-body-d,
+.ui-btn-up-d,
+.ui-btn-hover-d,
+.ui-btn-down-d,
+.ui-bar-d,
+.ui-body-e,
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e,
+.ui-bar-e,
+.ui-overlay-shadow,
+.ui-shadow,
+.ui-btn-active,
+.ui-body-a {
+    text-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
