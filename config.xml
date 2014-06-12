@@ -19,11 +19,11 @@
         
     <preference name="phonegap-version" value="3.4.0" />
         
-    <preference name="orientation" value="default" /> 
+    <preference name="orientation" value="landscape" /> 
     
     <preference name="splash-screen-duration" value="3500" />
         
-    <gap:splash src="images/splash.png" />
+    <gap:splash src="images/cel.jpg" />
         
     <icon src="images/icons/icon_play.png" />
     <icon src="images/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
@@ -35,6 +35,6 @@
         
     <preference name="stay-in-webview" value="false" />    
             
-    <preference name="android-minSdkVersion" value="5" />
+    <preference name="android-minSdkVersion" value="7" />
 
 </widget>
