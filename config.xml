@@ -23,9 +23,9 @@
     
     <preference name="splash-screen-duration" value="3500" />
         
-    <gap:splash src="images/cel.jpg" />
+    <gap:splash src="images/splash.png" />
         
-    <icon src="cel.jpg" />
+    <icon src="images/icons/icon_play.png" />
     <icon src="images/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
     <icon src="images/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
     <icon src="images/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
@@ -35,6 +35,6 @@
         
     <preference name="stay-in-webview" value="false" />    
             
-    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-minSdkVersion" value="5" />
 
 </widget>
