@@ -6,7 +6,7 @@
 
 
     <name>
-        Guia de clasificación de equipos utilizados en procedimientos estéticos
+        Guia de clasificación de equipos utilizados en procedimientos estéticos.
     </name>
 
     <description>
@@ -26,10 +26,10 @@
     <gap:splash src="images/cel.jpg" />
         
     <icon src="cel.jpg" />
-    <icon src="images/icons/cel.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="images/icons/cel.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="images/icons/cel.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="images/icons/cel.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="images/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="images/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="images/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="images/icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
     
     <preference name="permissions" value="none"/>
         
