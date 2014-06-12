@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.developer.pruebaotraplantilla"
+        id        = "com.developer.guia"
         version   = "1.0.0">
 
 
-    <name>Nueva Prueba</name>
+    <name>
+        Guia de clasificación de equipos utilizados en procedimientos estéticos
+    </name>
 
     <description>
-        A ver si entendí. 
+        Herramienta para clasificar equipos utilizados en procedimientos estéticos. 
     </description>
 
-    <author href="https://yourwebsite.com" email="andrescope@hotmail.com">
-        Studio Nice
+    <author href="https://www.javeriana.edu.co" email="uruenaj@javeriana.edu.co">
+        Grupo de investigación en bioingenieria de la Pontificia Universidad Javeriana
     </author>
         
     <preference name="phonegap-version" value="3.4.0" />
@@ -20,21 +22,19 @@
     <preference name="orientation" value="default" /> 
     
     <preference name="splash-screen-duration" value="3500" />
-        <gap:splash src="images/cel.png" />
         
-    <icon src="cel.png" />
-    <icon src="images/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="images/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="images/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="images/icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/cel.jpg" />
+        
+    <icon src="cel.jpg" />
+    <icon src="images/icons/cel.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="images/icons/cel.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="images/icons/cel.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="images/icons/cel.png" gap:platform="android" gap:density="xhdpi" />
     
     <preference name="permissions" value="none"/>
         
-    <preference name="stay-in-webview" value="false" />
-        
-        
-    
-        
-    <preference name="android-minSdkVersion" value="5" />
+    <preference name="stay-in-webview" value="false" />    
+            
+    <preference name="android-minSdkVersion" value="7" />
 
 </widget>
